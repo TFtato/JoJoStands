@@ -12,7 +12,7 @@ namespace JoJoStands.Items.Armor
 	public class StoneMask : ModItem
 	{
 		public override void SetStaticDefaults() {
-			Tooltip.SetDefault("An odd archaeological find. When worn, you gain superhuman abilities, but burns you in the sunlight.");
+			Tooltip.SetDefault("An odd archaeological find. When worn, you gain superhuman abilities, but you burn in the sunlight.");
 		}
 
 		public override void SetDefaults() {
