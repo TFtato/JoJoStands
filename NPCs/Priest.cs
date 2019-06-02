@@ -19,7 +19,7 @@ namespace JoJoStands.NPCs            //We need this to basically indicate the fo
             npc.height = 46;  //the npc sprite height
             npc.aiStyle = 7; //this is the npc ai style, 7 is Pasive Ai
             npc.defense = 27;  //the npc defense
-            npc.lifeMax = 300;// the npc life
+            npc.lifeMax = 250;// the npc life
             npc.HitSound = SoundID.NPCHit1;  //the npc sound when is hit
             npc.DeathSound = SoundID.NPCDeath1;  //the npc sound when he dies
             npc.knockBackResist = 1f;  //the npc knockback resistance
@@ -71,7 +71,7 @@ namespace JoJoStands.NPCs            //We need this to basically indicate the fo
                 case 0:
                     return "I sell stand discs to people who want them... Want one?";
                 case 1:
-                    return "My White Snake is the only stand capable of defeating Star Platinum right now...";
+                    return "My Whitesnake is the only stand capable of defeating Star Platinum right now...";
                 case 2:
                     return "That boy will pay for ruining my perfect universe!";
                 case 3:
@@ -81,7 +81,7 @@ namespace JoJoStands.NPCs            //We need this to basically indicate the fo
                 case 5:
                     return "You seem like you could've been a fitting servant for DIO... If only you were in Egypt at the time.";
                 default:
-                    return "You know... I was able to get Star Platinum from Jotaro... Interested?";
+                    return "You know, I was able to get Star Platinum from Jotaro... Interested?";
 
             }
         }
